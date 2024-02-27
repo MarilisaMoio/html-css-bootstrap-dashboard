@@ -50,6 +50,10 @@ header{
 .ms-orange-bells{
     color: rgb(255, 121, 4)
 }
+
+.ms-dropdown-position{
+    right: 50px!important;
+}
 /* #endregion HEADER */
 
 /* #region MAIN */
