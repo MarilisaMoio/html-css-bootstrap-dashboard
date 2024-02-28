@@ -1,6 +1,7 @@
 /* #region COLORS AND SIZES */
 :root{
     --plan-badge: #165BBA;
+    --plan-badge-hov: #0f4a9c;
     --sidebar-bg: #051E34;
     --main-top-bg: #1B72E8;
     --search-bar: #E5E5E5;
@@ -87,6 +88,7 @@ header i{
         background-color: var(--main-bg);
         overflow-y: auto;
         & .ms-main-top{
+            padding: 1rem 0;
             background-color: var(--main-top-bg);
             min-height: 100px;
         }
@@ -106,12 +108,42 @@ header i{
     min-height: inherit;
 }
 
+.ms-btn-ns{
+    border: 3px solid white;
+    border-radius: 3px;
+    aspect-ratio: 1;
+}
+
 .ms-badge{
     font-weight: 400;
 }
 
+.ms-none{
+    display: none;
+}
+
 .ms-bg-pill{
     background-color: var(--plan-badge);
+    &:hover{
+        background-color: var(--plan-badge-hov);
+    }
+}
+
+/*check opener*/
+label{
+    cursor: pointer;
+}
+
+#badge-check:checked{
+    & ~ .badge{
+    display: inline-block;
+    }
+    & ~ label .fa-plus{
+        display: none;
+    } 
+    & ~ label .fa-minus{
+        display: inline-block;
+    } 
 }
 
 /* #endregion MAIN-CONTENT */
