@@ -125,13 +125,35 @@ header i{
     }
 }
 
-input:not([type="file"]){
+.offcanvas input:not([type="file"]){
     &:valid{
         color: var(--main-top-bg);
     }
     &:invalid{
         color: var(--bs-danger);
     }
+}
+
+.ms-avatar{
+    height: 30px;
+}
+
+.ms-table-btn{
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: gray;
+    &:hover{
+        background-color: white;
+        filter: brightness(0.7)
+    }
+}
+
+.ms-nowrap{
+    white-space: nowrap;
+}
+
+tr > :not(:nth-child(1)){
+    text-align: center;
 }
 
 /*check opener*/
