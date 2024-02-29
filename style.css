@@ -129,6 +129,15 @@ header i{
     }
 }
 
+input:not([type="file"]){
+    &:valid{
+        color: var(--main-top-bg);
+    }
+    &:invalid{
+        color: var(--bs-danger);
+    }
+}
+
 /*check opener*/
 label{
     cursor: pointer;
