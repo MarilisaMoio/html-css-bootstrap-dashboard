@@ -89,8 +89,8 @@
             <div class="ms-main-top">
                 <div class="container-fluid ms-inherit">
                     <div class="row ms-inherit text-white align-items-start gy-3 gy-md-0 gx-md-4">
-                        <div class="col-12 col-md-auto order-md-1">
-                            <div class="d-flex align-items-center">
+                        <div class="col-12 col-md order-md-1">
+                            <div class="d-flex align-items-center justify-content-md-center">
                                 <div class="m-0 d-inline-block fs-6">Nuovo Studente</div>
                                 <button class="ms-reset-style text-white ms-2 ms-btn-ns" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="far fa-plus fa-lg"></i></button>
                                 <div class="offcanvas w-100 ms-offcanvas-md-width offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -150,9 +150,7 @@
                                                 <div class="col-12">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id="check" required>
-                                                        <label class="form-check-label" for="check">
-                                                        Spunta questa checkbox per procedere
-                                                        </label>
+                                                        <label class="form-check-label" for="check">Spunta questa checkbox per procedere</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-12">
@@ -168,24 +166,24 @@
                         <div class="col-12 col-md">
                             <div class="mb-2">
                                 <div class="m-0 d-inline-block fs-3">Boolean</div>
-                                <span class="badge ms-badge rounded-pill ms-bg-pill">Piano blaze</span>
+                                <span class="badge fw-normal rounded-pill ms-bg-pill">Piano blaze</span>
                             </div>
                             <div>
-                                <span class="badge ms-badge rounded-pill ms-bg-pill">3 App</span>
+                                <span class="badge fw-normal rounded-pill ms-bg-pill">3 App</span>
                                 <i class="fas fa-angles-right"></i>
                                 <input type="checkbox" name="" id="badge-check" class="d-none">
                                 <label for="badge-check">
-                                    <span class="badge ms-badge rounded-pill ms-bg-pill d-lg-none">
+                                    <span class="badge fw-normal rounded-pill ms-bg-pill d-lg-none">
                                         <i class="far fa-plus fa-sm"></i>
                                         <i class="fas fa-minus ms-none fa-sm"></i>
                                     </span>
                                 </label>
-                                <span class="badge ms-none ms-badge rounded-pill ms-bg-pill d-lg-inline-block">Boolean mobile app</span>
-                                <span class="badge ms-none ms-badge rounded-pill ms-bg-pill d-lg-inline-block">Boolean blog app</span>
-                                <span class="badge ms-none ms-badge rounded-pill ms-bg-pill d-lg-inline-block">Boolean web app</span>
+                                <span class="badge ms-none fw-normal rounded-pill ms-bg-pill d-lg-inline-block">Boolean mobile app</span>
+                                <span class="badge ms-none fw-normal rounded-pill ms-bg-pill d-lg-inline-block">Boolean blog app</span>
+                                <span class="badge ms-none fw-normal rounded-pill ms-bg-pill d-lg-inline-block">Boolean web app</span>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md">
                             <div class="fs-6 pt-md-1">
                                 Studenti online negli ultimi 30 minuti
                             </div>
@@ -196,9 +194,125 @@
                     </div>
                 </div>
             </div>
-            <div class="ms-main-content"></div>
+            <div class="ms-main-content py-4">
                 <div class="container-fluid">
-                    aaaaaaaaa
+                    <div class="row gy-3">
+                        <div class="col-12 col-lg-8">
+                            <div class="row gy-3">
+                                <div class="col-12">
+                                    <div class="card"> <!--! CONCLUDI-->
+                                        <div class="card-header">
+                                        <h5 class="text-uppercase">Prossime classi</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col" class="w-50">Nome</th>
+                                                        <th scope="col">Data</th>
+                                                        <th scope="col text-uppercase">roi</th>
+                                                        <th scope="col">Stato</th>
+                                                        <th scope="col">Azioni</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Mark</td>
+                                                        <td>Otto</td>
+                                                        <td>@mdo</td>
+                                                        <td>Otto</td>
+                                                        <td>@mdo</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                        <h5 class="text-uppercase">faq</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button fw-semibold ms-fw collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Come aggiungere un nuovo studente?</button>
+                                                    </h2>
+                                                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body">We're no strangers to love, you know the rules and so do I (do I), a full commitment's what I'm thinking of, you wouldn't get this from any other guy.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button fw-semibold ms-fw collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Come posso accedere alle informazioni del mio account?</button>
+                                                    </h2>
+                                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body">I just wanna tell you how I'm feeling, gotta make you understand.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button fw-semibold ms-fw collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Posso usare questa dashboard da mobile?</button>
+                                                    </h2>
+                                                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body">Never gonna give you up, never gonna let you down, never gonna run around and desert, never gonna make you cry, never gonna say goodbye, never gonna tell a lie and hurt you</div>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="row gy-3">
+                                <div class="col-12">
+                                    <div class="card"> <!--todo-->
+                                        <div class="card-header">
+                                        <h5 class="text-uppercase">TO-DO</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group fs-6">
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                                    <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                                    <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                                    <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <img class="w-100" src="img/stats.jpeg" alt="">
+                                                    <div class="fs-4">Utenti attivi</div>
+                                                    <div>Lista degli utenti attivi in piattaforma nell'ultimo mese</div>
+                                                </li>
+                                                <li class="list-group-item">Gennaio: 1200</li>
+                                                <li class="list-group-item">Febbraio: 800</li>
+                                                <li class="list-group-item">Marzo: 1500</li>
+                                                <li class="list-group-item">
+                                                    <a href="#">Visualizza report approfondito</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
